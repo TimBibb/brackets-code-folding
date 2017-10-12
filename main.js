@@ -148,6 +148,16 @@ define(function (require, exports, module) {
             }
         }
     }
+    /**
+        Framework for copy and paste issue on brackets main github
+        https://github.com/adobe/brackets/
+        Issue #13014
+    */
+    function keepCollapseIfCopied(){
+        //see where the user copied
+        //check if it was previously collapsed
+        //if it was collapsed, when they paste call collapseCurrent.
+    }
 
     /**
         Collapses all custom regions defined in the current editor
